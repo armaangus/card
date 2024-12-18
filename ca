@@ -1,0 +1,13 @@
+import pygame
+import time
+
+pygame.init()
+
+WIDTH=500
+HEIGHT=500
+
+display_surface=pygame.display.set_mode((WIDTH,HEIGHT))
+pygame.display.set_caption(B)
+
+img = pygame.image.load("backgrounds.jpg")
+image=pygame.transform.scale(img, (WIDTH,HEIGHT))
